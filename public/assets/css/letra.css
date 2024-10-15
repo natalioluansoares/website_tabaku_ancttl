@@ -1,0 +1,53 @@
+.carousel-item{
+    max-width: 100%;
+    height: auto;
+}
+.banner-text{
+    position: absolute;
+    top: 25%;
+    color: #fff;
+    padding: 20px;
+}
+.banner-text h4{
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 5px;
+    mix-blend-mode: difference;
+}
+.banner-text p{
+    margin-bottom: 5px;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    mix-blend-mode: difference;
+}
+.banner-text .detail{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: cornflowerblue;
+    border-radius: 0.5rem;
+    box-shadow: 1px, 1px, 1px rgba(1, 1, 3, 0.5);
+}
+
+@media(max-width:450px) {
+html{
+    font-size: 10%;
+}
+.banner-text{
+    position: absolute;
+    top: 8%;
+    color: #fff;
+    padding: 10px;
+}    
+.banner-text h4{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* font-weight: bold; */
+    margin-bottom: 2px;
+    mix-blend-mode: difference;
+}
+}
